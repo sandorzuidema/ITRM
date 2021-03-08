@@ -1,0 +1,17 @@
+This script downloads the content of the webpage Rijksuniversiteit:
+
+--2021-03-08 14:19:54--  https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen 
+Resolving nl.wikipedia.org (nl.wikipedia.org)... 91.198.174.192, 2620:0:862:ed1a::1 
+Connecting to nl.wikipedia.org (nl.wikipedia.org)|91.198.174.192|:443... connected. 
+HTTP request sent, awaiting response... 200 OK  
+Length: 155685 (152K) [text/html] 
+Saving to: ‘Rijksuniversiteit_Groningen’ 
+
+Rijksuniversiteit_Groningen                                 100%[========================================================================================================================================>] 152.04K  --.-KB/s    in 0.04s
+
+2021-03-08 14:19:55 (3.53 MB/s) - ‘Rijksuniversiteit_Groningen’ saved [155685/155685] 
+
+Now that the webpage is downloaded, we will count the occurences of the word de.
+
+The amount of occurences is:
+311
